@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CIB Registration Form.</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <h1>CIB Gym Membership Form.</h1>
+    <p>Welcome to our membership application page. Want to become a member of our Gym?<br>
+        Then take the bold step if you believe you have what it takes to build Spirit Mind and Body.<br>
+    We will contact you to notify you about your membership card.</p>
+    <form action="index.html" method="post">
+        <div>        
+            <label for="name">Name</label>
+        <input type="text" name="Name" id="Name" required placeholder="First">
+        <input type="text" name="Name" id="Name" required placeholder="Last">
+        </div>
+        <div>
+            <label for="weight class">Current Weight Class.(lbs)</label>
+            <div>
+            <input type="text" name="Class" id="weight class" required>
+        </div>
+        <div>
+            <label for="weight class">Desired Weight.(lbs)</label>
+            <div>
+            <input type="text" name="Class" id="weight class" required>
+        </div>
+        <div>
+            <label for="height">Height.</label>
+            <div>
+            <input type="text" name="height in feet" id="height" required>
+        </div>
+        <div>
+                <label for="email">Email</label>
+                <input type="email" name="Email" id="Email" required>
+            </div>
+            <div>
+                <label for="address">Home address.(For those that Wish to be on the Gym Bus plan.)</label>
+                <div>
+                <input type="text" name="address" id="address">
+            </div>
+            <div>
+                <label for="Birthday"> Date of Birth.</label>
+                <div>
+                <input type="date" name="birthday" id="Birthday" required >
+            </div>
+            
+            <div>
+                <h2>Gender.</h2> 
+                <label for="Gender">Male.</label>
+                <input type="radio" name="Gender" id="Gender" required>
+            </div>
+            <div>
+                <label for="Gender">Female.</label>
+                <input type="radio" name="Gender" id="Gender" required>
+            </div>
+        <div>
+            <h3>Gym class</h3>
+            <div>
+                <label for="Aerobics">Aerobics</label>
+                <input type="checkbox" name="Aerobics" id="Aerobics">
+            </div>
+            <div>
+                <label for="Weight Lifting">Weight Lifting</label>
+                <input type="checkbox" name="weight lifting" id="Weight Lifting">
+            </div>
+            <div>
+                <label for="Boxing">Boxing</label>
+                <input type="checkbox" name="Boxing" id="Boxing">
+            </div>
+        </div>
+
+    </div>
+         <div>
+            <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+    </div>
+    </form>
+</body>
+</html>
