@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    .iframeembed{
+      width:15%;
+      float:left;
+      padding:20px;
+    }
+    .embedvideo{
+      padding:20px;
+      width:30%;
+      float:left;
+    }
+    .embedaudio{
+      padding:20px;
+      width:15%;
+      float:left;
+    }
+    .youtube{
+      padding:20px;
+      width:15%;
+      float:left;
+    }
+     @media screen and (max-width:760px){
+      .iframeembed, .embedvideo, .embedaudio, .youtube {
+        width:100%
+      }
+     }
+
+  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Iframes</title>
+</head>
+<body>
+  <div class="iframeembed">
+    <iframe src="coding.html" frameborder="0" width="200px" height="150px"></iframe>
+  </div>
+ 
+  
+  <div class="embedvideo">
+    <video controls width="340px" height="300px">
+      <source src="Duyilemi Precious/iframe/Video.mp4" type="video/mp4">
+      Your browser does not support the video element.
+    </video>
+  </div>
+  
+  <div class="embedaudio">
+  <audio controls >
+    <source src="audioo.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+</div>
+
+  <div class="youtube">
+    <iframe 
+  width="300px" 
+  height="205px" 
+  src="https://www.youtube.com/embed/sg9apV6Bp0k">
+</iframe>
+  </div>
+
+
+
+</body>
+</html>

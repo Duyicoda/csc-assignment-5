@@ -1,0 +1,42 @@
+body {
+    text-align: center;
+    background-color: white;
+    color: black;
+}
+h1 {
+    padding: 10px;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+th,td {
+    padding: 10px;
+    text-align: center;
+    border: 2px solid whitesmoke;
+    color: black;
+}
+.university-name {
+    color: black;
+    font-size: xx-large;
+}
+.university-town {
+    color: black;
+    margin-left: 20px;
+}
+.event-title {
+color: white;
+background-color: green;
+}
+.university-logo {
+    height: 20px;
+    width: 20px;
+    
+}
+thead {
+color: aliceblue;
+background-color: rgb(0, 204, 255);
+}
